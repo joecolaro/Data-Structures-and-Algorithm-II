@@ -1,0 +1,167 @@
+Jers-MacBook-Pro:Directed Graphs jerchernglaw$ g++ -o a main.cpp dgraph.cpp llist.cpp slist.cpp
+Jers-MacBook-Pro:Directed Graphs jerchernglaw$ ./a
+A
+2
+B F 
+B
+2
+C G 
+C
+1
+H 
+E
+0
+Empty linked list
+F
+2
+I E 
+G
+0
+Empty linked list
+H
+2
+G I 
+I
+3
+A G E 
+
+Enter vertex letter to find outDegree or 'q' to quit: A
+The degree at 'A' is: 2
+
+Enter vertex letter to find outDegree or 'q' to quit: a
+The degree at 'a' is: Error: Vertex does not exist.
+1 <— this is the error code returned
+
+Enter vertex letter to find outDegree or 'q' to quit: B
+The degree at 'B' is: 2
+
+Enter vertex letter to find outDegree or 'q' to quit: C
+The degree at 'C' is: 1
+
+Enter vertex letter to find outDegree or 'q' to quit: E
+The degree at 'E' is: 0
+
+Enter vertex letter to find outDegree or 'q' to quit: F
+The degree at 'F' is: 2
+
+Enter vertex letter to find outDegree or 'q' to quit: G
+The degree at 'G' is: 0
+
+Enter vertex letter to find outDegree or 'q' to quit: H
+The degree at 'H' is: 2
+
+Enter vertex letter to find outDegree or 'q' to quit: I
+The degree at 'I' is: 3
+
+Enter vertex letter to find outDegree or 'q' to quit: z
+The degree at 'z' is: Error: Vertex does not exist.
+1 (testing for vertices that do not exist.) 
+
+Enter vertex letter to find outDegree or 'q' to quit: 3
+The degree at '3' is: Error: Vertex does not exist.
+1 (testing for vertices that do not exist.) 
+
+Enter vertex letter to find outDegree or 'q' to quit: 2
+The degree at '2' is: Error: Vertex does not exist.
+1 (testing for vertices that do not exist.) 
+
+Enter vertex letter to find outDegree or 'q' to quit: 0
+The degree at '0' is: Error: Vertex does not exist.
+1 (testing for vertices that do not exist.) 
+
+Enter vertex letter to find outDegree or 'q' to quit: -1
+The degree at '-' is: Error: Vertex does not exist.
+1 (reads as char process ‘-‘ and ‘1’ separately. Does not crash)
+
+Enter vertex letter to find outDegree or 'q' to quit: The degree at '1' is: Error: Vertex does not exist.
+1 (testing for vertices that do not exist.) 
+
+Enter vertex letter to find outDegree or 'q' to quit: q
+
+Enter vertex letter to find adjacency list or 'q' to quit: A
+The adjacency list at 'A' is:
+Calling the linked list destructor.
+B F 
+
+Enter vertex letter to find adjacency list or 'q' to quit: B
+The adjacency list at 'B' is:
+Calling the linked list destructor.
+C G 
+
+Enter vertex letter to find adjacency list or 'q' to quit: C
+The adjacency list at 'C' is:
+Calling the linked list destructor.
+H 
+
+Enter vertex letter to find adjacency list or 'q' to quit: E
+The adjacency list at 'E' is:
+Calling the linked list destructor.
+Empty linked list
+
+Enter vertex letter to find adjacency list or 'q' to quit: F
+The adjacency list at 'F' is:
+Calling the linked list destructor.
+I E 
+
+Enter vertex letter to find adjacency list or 'q' to quit: G
+The adjacency list at 'G' is:
+Calling the linked list destructor.
+Empty linked list
+
+Enter vertex letter to find adjacency list or 'q' to quit: H
+The adjacency list at 'H' is:
+Calling the linked list destructor.
+G I 
+
+Enter vertex letter to find adjacency list or 'q' to quit: I
+The adjacency list at 'I' is:
+Calling the linked list destructor.
+A G E 
+
+Enter vertex letter to find adjacency list or 'q' to quit: i
+The adjacency list at 'i' is:
+Error: Vertex does not exist.
+Calling the linked list destructor.
+Calling the linked list destructor.
+Empty linked list
+(testing for vertices that do not exist.) 
+
+Enter vertex letter to find adjacency list or 'q' to quit: 1
+The adjacency list at '1' is:
+Error: Vertex does not exist.
+Calling the linked list destructor.
+Calling the linked list destructor.
+Empty linked list
+(testing for vertices that do not exist.) 
+
+Enter vertex letter to find adjacency list or 'q' to quit: 3
+The adjacency list at '3' is:
+Error: Vertex does not exist.
+Calling the linked list destructor.
+Calling the linked list destructor.
+Empty linked list
+(testing for vertices that do not exist.) 
+
+Enter vertex letter to find adjacency list or 'q' to quit: q
+Calling the linked list destructor.
+Calling the linked list destructor.
+Calling the linked list destructor.
+Calling the linked list destructor.
+Calling the linked list destructor.
+Calling the linked list destructor.
+Calling the linked list destructor.
+Calling the linked list destructor.
+Calling the linked list destructor.
+Calling the linked list destructor.
+Calling the linked list destructor.
+Calling the linked list destructor.
+Calling the linked list destructor.
+Calling the linked list destructor.
+Calling the linked list destructor.
+Calling the linked list destructor.
+Calling the linked list destructor.
+Calling the linked list destructor.
+Calling the linked list destructor.
+Calling the linked list destructor.
+Calling the linked list destructor.
+Jers-MacBook-Pro:Directed Graphs jerchernglaw$ 

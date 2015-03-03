@@ -1,0 +1,169 @@
+Please specify file path to be used. Otherwise default path will be used:
+
+Graph: 
+Vertex Name       : A
+Out Degree        : 2
+Adjacent Vertices : B F 
+Visit Number      : 0
+
+Vertex Name       : B
+Out Degree        : 2
+Adjacent Vertices : C G 
+Visit Number      : 0
+
+Vertex Name       : C
+Out Degree        : 1
+Adjacent Vertices : H 
+Visit Number      : 0
+
+Vertex Name       : E
+Out Degree        : 0
+Adjacent Vertices : (Empty linked list) 
+Visit Number      : 0
+
+Vertex Name       : F
+Out Degree        : 2
+Adjacent Vertices : I E 
+Visit Number      : 0
+
+Vertex Name       : G
+Out Degree        : 0
+Adjacent Vertices : (Empty linked list) 
+Visit Number      : 0
+
+Vertex Name       : H
+Out Degree        : 2
+Adjacent Vertices : G I 
+Visit Number      : 0
+
+Vertex Name       : I
+Out Degree        : 3
+Adjacent Vertices : A G E 
+Visit Number      : 0
+
+
+Popping: A from Stack
+Adding : B F 
+
+Current Stack:
+B F 
+
+Popped B from Stack
+Visited B
+Adding: 
+C G 
+Current Stack: 
+C G F 
+
+Popped C from Stack
+Visited C
+Adding: 
+H 
+Current Stack: 
+H G F 
+
+Popped H from Stack
+Visited H
+Adding: 
+G I 
+Current Stack: 
+G I G F 
+
+Popped G from Stack
+Visited G
+Adding: 
+(Empty linked list) 
+Current Stack: 
+I G F 
+
+Popped I from Stack
+Visited I
+Adding: 
+A G E 
+Current Stack: 
+A G E G F 
+
+Popped A from Stack
+A is marked
+Current Stack: 
+G E G F 
+
+Popped G from Stack
+G is marked
+Current Stack: 
+E G F 
+
+Popped E from Stack
+Visited E
+Adding: 
+(Empty linked list) 
+Current Stack: 
+G F 
+
+Popped G from Stack
+G is marked
+Current Stack: 
+F 
+
+Popped F from Stack
+Visited F
+Adding: 
+I E 
+Current Stack: 
+I E 
+
+Popped I from Stack
+I is marked
+Current Stack: 
+E 
+
+Popped E from Stack
+E is marked
+Current Stack: 
+empty
+
+Vertex Name       : A
+Out Degree        : 2
+Adjacent Vertices : B F 
+Visit Number      : 1
+
+Vertex Name       : B
+Out Degree        : 2
+Adjacent Vertices : C G 
+Visit Number      : 2
+
+Vertex Name       : C
+Out Degree        : 1
+Adjacent Vertices : H 
+Visit Number      : 3
+
+Vertex Name       : E
+Out Degree        : 0
+Adjacent Vertices : (Empty linked list) 
+Visit Number      : 9
+
+Vertex Name       : F
+Out Degree        : 2
+Adjacent Vertices : I E 
+Visit Number      : 11
+
+Vertex Name       : G
+Out Degree        : 0
+Adjacent Vertices : (Empty linked list) 
+Visit Number      : 5
+
+Vertex Name       : H
+Out Degree        : 2
+Adjacent Vertices : G I 
+Visit Number      : 4
+
+Vertex Name       : I
+Out Degree        : 3
+Adjacent Vertices : A G E 
+Visit Number      : 6
+
+---------------------------
+Sorted display:
+---------------------------
+A -> B -> C -> H -> G -> I -> E -> F -> end
+Program ended with exit code: 0
