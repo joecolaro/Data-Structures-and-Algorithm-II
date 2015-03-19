@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F6AD1E33-AF26-4D13-97B6-4F6FDA797258</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Linked Lists</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>BF91CAA17BC037BFCD696A8015BC556433B87D54</key>
+		<string>https://github.com/AxialLP7/Data-Structures-and-Algorithm-II.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>HWPrograms/forHW3/Basic Linked List P1/Linked Lists.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>BF91CAA17BC037BFCD696A8015BC556433B87D54</key>
+		<string>../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/AxialLP7/Data-Structures-and-Algorithm-II.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BF91CAA17BC037BFCD696A8015BC556433B87D54</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BF91CAA17BC037BFCD696A8015BC556433B87D54</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Data%20Structures%20and%20Algorithm%20II</string>
+		</dict>
+	</array>
+</dict>
+</plist>
