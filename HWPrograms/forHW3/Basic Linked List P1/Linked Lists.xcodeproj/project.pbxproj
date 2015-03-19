@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F4FC25E219E63B7200464DEE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4FC25E119E63B7200464DEE /* main.cpp */; };
-		F4FC25EA19E63B8500464DEE /* llist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4FC25E819E63B8500464DEE /* llist.cpp */; };
+		F492217F1ABB97D300FEC66F /* llist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F492217D1ABB97D300FEC66F /* llist.cpp */; };
+		F49221801ABB97D300FEC66F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F492217E1ABB97D300FEC66F /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,10 +24,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		F4FC25DE19E63B7200464DEE /* Linked Lists */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Linked Lists"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F4FC25E119E63B7200464DEE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		F4FC25E819E63B8500464DEE /* llist.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = llist.cpp; path = ../../llist.cpp; sourceTree = "<group>"; };
-		F4FC25E919E63B8500464DEE /* llist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = llist.h; path = ../../llist.h; sourceTree = "<group>"; };
+		F492217B1ABB96EF00FEC66F /* Linked Lists */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = "Linked Lists"; path = "/Users/jerchernglaw/Documents/COMSC/GitHub Folders/Data Structures and Algorithm II/HWPrograms/forHW3/Basic Linked List P1/build/Debug/Linked Lists"; sourceTree = "<absolute>"; };
+		F492217C1ABB97D300FEC66F /* llist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = llist.h; sourceTree = "<group>"; };
+		F492217D1ABB97D300FEC66F /* llist.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = llist.cpp; sourceTree = "<group>"; };
+		F492217E1ABB97D300FEC66F /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,27 +44,10 @@
 		F4FC25D519E63B7200464DEE = {
 			isa = PBXGroup;
 			children = (
-				F4FC25E019E63B7200464DEE /* Linked Lists */,
-				F4FC25DF19E63B7200464DEE /* Products */,
+				F492217C1ABB97D300FEC66F /* llist.h */,
+				F492217D1ABB97D300FEC66F /* llist.cpp */,
+				F492217E1ABB97D300FEC66F /* main.cpp */,
 			);
-			sourceTree = "<group>";
-		};
-		F4FC25DF19E63B7200464DEE /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				F4FC25DE19E63B7200464DEE /* Linked Lists */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		F4FC25E019E63B7200464DEE /* Linked Lists */ = {
-			isa = PBXGroup;
-			children = (
-				F4FC25E119E63B7200464DEE /* main.cpp */,
-				F4FC25E819E63B8500464DEE /* llist.cpp */,
-				F4FC25E919E63B8500464DEE /* llist.h */,
-			);
-			path = "Linked Lists";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,7 +67,7 @@
 			);
 			name = "Linked Lists";
 			productName = "Linked Lists";
-			productReference = F4FC25DE19E63B7200464DEE /* Linked Lists */;
+			productReference = F492217B1ABB96EF00FEC66F /* Linked Lists */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -109,7 +92,7 @@
 				en,
 			);
 			mainGroup = F4FC25D519E63B7200464DEE;
-			productRefGroup = F4FC25DF19E63B7200464DEE /* Products */;
+			productRefGroup = F4FC25D519E63B7200464DEE;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -123,8 +106,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4FC25EA19E63B8500464DEE /* llist.cpp in Sources */,
-				F4FC25E219E63B7200464DEE /* main.cpp in Sources */,
+				F49221801ABB97D300FEC66F /* main.cpp in Sources */,
+				F492217F1ABB97D300FEC66F /* llist.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,6 +191,7 @@
 		F4FC25E619E63B7200464DEE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CREATE_INFOPLIST_SECTION_IN_BINARY = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -215,6 +199,7 @@
 		F4FC25E719E63B7200464DEE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CREATE_INFOPLIST_SECTION_IN_BINARY = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -238,6 +223,7 @@
 				F4FC25E719E63B7200464DEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
